@@ -25,5 +25,8 @@ body {
   border: 1px solid darkred;
   font-size: 24px;
   text-align: center;
+<<<<<<< HEAD
   line-height: 100px;
+=======
+>>>>>>> ffb7a3b (Removed line-height in css)
 }
