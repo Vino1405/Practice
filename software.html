@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Request Form</title>
+    <link rel="stylesheet" href="software.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Software Request</h1>
+        </header>
+        <section>
+            <form>
+                <div class="form-group">
+                    <label for="firstName">Name</label>
+                    <div class="name-fields">
+                        <input type="text" id="firstName" name="firstName" placeholder="First">
+                        <input type="text" id="lastName" name="lastName" placeholder="Last">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="employeeId">Employee ID</label>
+                    <input type="text" id="employeeId" name="employeeId">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="john.doe@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <div class="phone-input">
+                        <select>
+                            <option>🇷🇴</option>
+                        </select>
+                        <input type="tel" id="phone" name="phone" value="0712 034 567">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Which software do you require?</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="software" value="packageA"> Package A</label>
+                        <label><input type="checkbox" name="software" value="packageB"> Package B</label>
+                        <label><input type="checkbox" name="software" value="packageC"> Package C</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>How urgently do you need it?</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="urgency" value="asap"> As soon as possible</label>
+                        <label><input type="checkbox" name="urgency" value="1-3weeks"> Within in 1 to 3 weeks</label>
+                        <label><input type="checkbox" name="urgency" value="1-5months"> Within in 1 to 5 months</label>
+                        <label><input type="checkbox" name="urgency" value="no-hurry"> I'm in no hurry</label>
+                    </div>
+                </div>
+
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

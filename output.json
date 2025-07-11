@@ -1,0 +1,884 @@
+{
+  "name": "auto_zwvzedi0",
+  "tag": "div",
+  "component": [
+    {
+      "name": "auto_mob8qwf1",
+      "tag": "main",
+      "component": [
+        {
+          "name": "auto_ywmzbumm",
+          "tag": "header",
+          "component": [
+            {
+              "name": "Software Request",
+              "tag": "h1",
+              "component": [],
+              "grid": {
+                "pos-col": 1,
+                "pos-row": 5
+              },
+              "style": {
+                "font-size": "28px",
+                "color": "#333333",
+                "margin-bottom": "10px"
+              },
+              "attributes": {
+                "value": "Software Request"
+              }
+            }
+          ],
+          "grid": {
+            "pos-col": 1,
+            "pos-row": 4
+          },
+          "style": {
+            "text-align": "left",
+            "margin-bottom": "20px"
+          },
+          "attributes": {}
+        },
+        {
+          "name": "auto_u3gudhm6",
+          "tag": "section",
+          "component": [
+            {
+              "name": "auto_pr10a0ny",
+              "tag": "form",
+              "component": [
+                {
+                  "name": "auto_tej2w7n9",
+                  "tag": "div",
+                  "component": [
+                    {
+                      "name": "Name",
+                      "tag": "label",
+                      "component": [],
+                      "grid": {
+                        "display": "block",
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {
+                        "margin-bottom": "5px",
+                        "color": "#555555"
+                      },
+                      "attributes": {
+                        "for": "firstName",
+                        "value": "Name"
+                      }
+                    },
+                    {
+                      "name": "auto_ca8pnfob",
+                      "tag": "div",
+                      "component": [
+                        {
+                          "name": "firstName",
+                          "tag": "textbox",
+                          "component": [],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 3
+                          },
+                          "style": {
+                            "width": "100%",
+                            "padding": "8px",
+                            "border": "1px solid #000000",
+                            "border-radius": "4px",
+                            "box-sizing": "border-box",
+                            "font-size": "16px"
+                          },
+                          "attributes": {
+                            "type": "text",
+                            "id": "firstName",
+                            "name": "firstName",
+                            "placeholder": "First"
+                          }
+                        },
+                        {
+                          "name": "lastName",
+                          "tag": "textbox",
+                          "component": [],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 3
+                          },
+                          "style": {
+                            "width": "100%",
+                            "padding": "8px",
+                            "border": "1px solid #000000",
+                            "border-radius": "4px",
+                            "box-sizing": "border-box",
+                            "font-size": "16px"
+                          },
+                          "attributes": {
+                            "type": "text",
+                            "id": "lastName",
+                            "name": "lastName",
+                            "placeholder": "Last"
+                          }
+                        }
+                      ],
+                      "grid": {
+                        "display": "grid",
+                        "grid-template-columns": "1fr 1fr",
+                        "pos-col": 1,
+                        "pos-row": 2,
+                        "grid-row-gap": "10px",
+                        "grid-column-gap": "10px"
+                      },
+                      "style": {},
+                      "attributes": {
+                        "class": "name-fields"
+                      }
+                    }
+                  ],
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  },
+                  "style": {
+                    "margin-bottom": "15px"
+                  },
+                  "attributes": {
+                    "class": "form-group"
+                  }
+                },
+                {
+                  "proxy": "linegap",
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  }
+                },
+                {
+                  "name": "auto_fop65jsh",
+                  "tag": "div",
+                  "component": [
+                    {
+                      "name": "Employee ID",
+                      "tag": "label",
+                      "component": [],
+                      "grid": {
+                        "display": "block",
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {
+                        "margin-bottom": "5px",
+                        "color": "#555555"
+                      },
+                      "attributes": {
+                        "for": "employeeId",
+                        "value": "Employee ID"
+                      }
+                    },
+                    {
+                      "name": "employeeId",
+                      "tag": "textbox",
+                      "component": [],
+                      "grid": {
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {
+                        "width": "100%",
+                        "padding": "8px",
+                        "border": "1px solid #000000",
+                        "border-radius": "4px",
+                        "box-sizing": "border-box",
+                        "font-size": "16px"
+                      },
+                      "attributes": {
+                        "type": "text",
+                        "id": "employeeId",
+                        "name": "employeeId"
+                      }
+                    }
+                  ],
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  },
+                  "style": {
+                    "margin-bottom": "15px"
+                  },
+                  "attributes": {
+                    "class": "form-group"
+                  }
+                },
+                {
+                  "proxy": "linegap",
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  }
+                },
+                {
+                  "name": "auto_vqkza4o4",
+                  "tag": "div",
+                  "component": [
+                    {
+                      "name": "Email",
+                      "tag": "label",
+                      "component": [],
+                      "grid": {
+                        "display": "block",
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {
+                        "margin-bottom": "5px",
+                        "color": "#555555"
+                      },
+                      "attributes": {
+                        "for": "email",
+                        "value": "Email"
+                      }
+                    },
+                    {
+                      "name": "email",
+                      "tag": "textbox",
+                      "component": [],
+                      "grid": {
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {
+                        "width": "100%",
+                        "padding": "8px",
+                        "border": "1px solid #000000",
+                        "border-radius": "4px",
+                        "box-sizing": "border-box",
+                        "font-size": "16px"
+                      },
+                      "attributes": {
+                        "type": "email",
+                        "id": "email",
+                        "name": "email",
+                        "placeholder": "john.doe@example.com"
+                      }
+                    }
+                  ],
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  },
+                  "style": {
+                    "margin-bottom": "15px"
+                  },
+                  "attributes": {
+                    "class": "form-group"
+                  }
+                },
+                {
+                  "proxy": "linegap",
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  }
+                },
+                {
+                  "name": "auto_iebijhku",
+                  "tag": "div",
+                  "component": [
+                    {
+                      "name": "Phone",
+                      "tag": "label",
+                      "component": [],
+                      "grid": {
+                        "display": "block",
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {
+                        "margin-bottom": "5px",
+                        "color": "#555555"
+                      },
+                      "attributes": {
+                        "for": "phone",
+                        "value": "Phone"
+                      }
+                    },
+                    {
+                      "name": "auto_nn8w2a0r",
+                      "tag": "div",
+                      "component": [
+                        {
+                          "name": "auto_e17r830k",
+                          "tag": "dropdown",
+                          "component": [
+                            {
+                              "name": "🇷🇴",
+                              "tag": "option",
+                              "component": [],
+                              "grid": {
+                                "pos-col": 1,
+                                "pos-row": 4
+                              },
+                              "style": {},
+                              "attributes": {
+                                "value": "🇷🇴"
+                              }
+                            }
+                          ],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 3
+                          },
+                          "style": {
+                            "width": "auto",
+                            "padding": "8px",
+                            "border": "1px solid #000000",
+                            "border-radius": "4px",
+                            "box-sizing": "border-box",
+                            "font-size": "16px"
+                          },
+                          "attributes": {}
+                        },
+                        {
+                          "name": "phone",
+                          "tag": "textbox",
+                          "component": [],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 3
+                          },
+                          "style": {
+                            "width": "100%",
+                            "padding": "8px",
+                            "border": "1px solid #000000",
+                            "border-radius": "4px",
+                            "box-sizing": "border-box",
+                            "font-size": "16px"
+                          },
+                          "attributes": {
+                            "type": "tel",
+                            "id": "phone",
+                            "name": "phone",
+                            "value": "0712 034 567"
+                          }
+                        }
+                      ],
+                      "grid": {
+                        "display": "grid",
+                        "grid-template-columns": "auto 1fr",
+                        "align-items": "center",
+                        "pos-col": 1,
+                        "pos-row": 2,
+                        "grid-row-gap": "5px",
+                        "grid-column-gap": "5px"
+                      },
+                      "style": {},
+                      "attributes": {
+                        "class": "phone-input"
+                      }
+                    }
+                  ],
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  },
+                  "style": {
+                    "margin-bottom": "15px"
+                  },
+                  "attributes": {
+                    "class": "form-group"
+                  }
+                },
+                {
+                  "proxy": "linegap",
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  }
+                },
+                {
+                  "name": "auto_ldq1x7fq",
+                  "tag": "div",
+                  "component": [
+                    {
+                      "name": "Which software do you require?",
+                      "tag": "label",
+                      "component": [],
+                      "grid": {
+                        "display": "block",
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {
+                        "margin-bottom": "5px",
+                        "color": "#555555"
+                      },
+                      "attributes": {
+                        "value": "Which software do you require?"
+                      }
+                    },
+                    {
+                      "name": "auto_ujcgkw3q",
+                      "tag": "div",
+                      "component": [
+                        {
+                          "name": "Package A",
+                          "tag": "div",
+                          "component": [
+                            {
+                              "name": "packageA",
+                              "tag": "checkbox",
+                              "component": [],
+                              "grid": {
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {},
+                              "attributes": {
+                                "type": "checkbox",
+                                "name": "software",
+                                "value": "packageA"
+                              }
+                            },
+                            {
+                              "name": "Package A",
+                              "tag": "label",
+                              "component": [],
+                              "grid": {
+                                "display": "block",
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {
+                                "margin-bottom": "3px",
+                                "color": "#555555"
+                              },
+                              "attributes": {
+                                "value": "Package A"
+                              }
+                            }
+                          ],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 8
+                          },
+                          "style": {},
+                          "attributes": {}
+                        },
+                        {
+                          "name": "Package B",
+                          "tag": "div",
+                          "component": [
+                            {
+                              "name": "packageB",
+                              "tag": "checkbox",
+                              "component": [],
+                              "grid": {
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {},
+                              "attributes": {
+                                "type": "checkbox",
+                                "name": "software",
+                                "value": "packageB"
+                              }
+                            },
+                            {
+                              "name": "Package B",
+                              "tag": "label",
+                              "component": [],
+                              "grid": {
+                                "display": "block",
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {
+                                "margin-bottom": "3px",
+                                "color": "#555555"
+                              },
+                              "attributes": {
+                                "value": "Package B"
+                              }
+                            }
+                          ],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 8
+                          },
+                          "style": {},
+                          "attributes": {}
+                        },
+                        {
+                          "name": "Package C",
+                          "tag": "div",
+                          "component": [
+                            {
+                              "name": "packageC",
+                              "tag": "checkbox",
+                              "component": [],
+                              "grid": {
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {},
+                              "attributes": {
+                                "type": "checkbox",
+                                "name": "software",
+                                "value": "packageC"
+                              }
+                            },
+                            {
+                              "name": "Package C",
+                              "tag": "label",
+                              "component": [],
+                              "grid": {
+                                "display": "block",
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {
+                                "margin-bottom": "3px",
+                                "color": "#555555"
+                              },
+                              "attributes": {
+                                "value": "Package C"
+                              }
+                            }
+                          ],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 8
+                          },
+                          "style": {},
+                          "attributes": {}
+                        }
+                      ],
+                      "grid": {
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {},
+                      "attributes": {
+                        "class": "checkbox-group"
+                      }
+                    }
+                  ],
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  },
+                  "style": {
+                    "margin-bottom": "15px"
+                  },
+                  "attributes": {
+                    "class": "form-group"
+                  }
+                },
+                {
+                  "proxy": "linegap",
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  }
+                },
+                {
+                  "name": "auto_6vmal3i0",
+                  "tag": "div",
+                  "component": [
+                    {
+                      "name": "How urgently do you need it?",
+                      "tag": "label",
+                      "component": [],
+                      "grid": {
+                        "display": "block",
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {
+                        "margin-bottom": "5px",
+                        "color": "#555555"
+                      },
+                      "attributes": {
+                        "value": "How urgently do you need it?"
+                      }
+                    },
+                    {
+                      "name": "auto_zndeu4da",
+                      "tag": "div",
+                      "component": [
+                        {
+                          "name": "As soon as possible",
+                          "tag": "div",
+                          "component": [
+                            {
+                              "name": "asap",
+                              "tag": "checkbox",
+                              "component": [],
+                              "grid": {
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {},
+                              "attributes": {
+                                "type": "checkbox",
+                                "name": "urgency",
+                                "value": "asap"
+                              }
+                            },
+                            {
+                              "name": "As soon as possible",
+                              "tag": "label",
+                              "component": [],
+                              "grid": {
+                                "display": "block",
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {
+                                "margin-bottom": "3px",
+                                "color": "#555555"
+                              },
+                              "attributes": {
+                                "value": "As soon as possible"
+                              }
+                            }
+                          ],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 8
+                          },
+                          "style": {},
+                          "attributes": {}
+                        },
+                        {
+                          "name": "Within in 1 to 3 weeks",
+                          "tag": "div",
+                          "component": [
+                            {
+                              "name": "1-3weeks",
+                              "tag": "checkbox",
+                              "component": [],
+                              "grid": {
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {},
+                              "attributes": {
+                                "type": "checkbox",
+                                "name": "urgency",
+                                "value": "1-3weeks"
+                              }
+                            },
+                            {
+                              "name": "Within in 1 to 3 weeks",
+                              "tag": "label",
+                              "component": [],
+                              "grid": {
+                                "display": "block",
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {
+                                "margin-bottom": "3px",
+                                "color": "#555555"
+                              },
+                              "attributes": {
+                                "value": "Within in 1 to 3 weeks"
+                              }
+                            }
+                          ],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 8
+                          },
+                          "style": {},
+                          "attributes": {}
+                        },
+                        {
+                          "name": "Within in 1 to 5 months",
+                          "tag": "div",
+                          "component": [
+                            {
+                              "name": "1-5months",
+                              "tag": "checkbox",
+                              "component": [],
+                              "grid": {
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {},
+                              "attributes": {
+                                "type": "checkbox",
+                                "name": "urgency",
+                                "value": "1-5months"
+                              }
+                            },
+                            {
+                              "name": "Within in 1 to 5 months",
+                              "tag": "label",
+                              "component": [],
+                              "grid": {
+                                "display": "block",
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {
+                                "margin-bottom": "3px",
+                                "color": "#555555"
+                              },
+                              "attributes": {
+                                "value": "Within in 1 to 5 months"
+                              }
+                            }
+                          ],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 8
+                          },
+                          "style": {},
+                          "attributes": {}
+                        },
+                        {
+                          "name": "I'm in no hurry",
+                          "tag": "div",
+                          "component": [
+                            {
+                              "name": "no-hurry",
+                              "tag": "checkbox",
+                              "component": [],
+                              "grid": {
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {},
+                              "attributes": {
+                                "type": "checkbox",
+                                "name": "urgency",
+                                "value": "no-hurry"
+                              }
+                            },
+                            {
+                              "name": "I'm in no hurry",
+                              "tag": "label",
+                              "component": [],
+                              "grid": {
+                                "display": "block",
+                                "pos-col": 1,
+                                "pos-row": 9
+                              },
+                              "style": {
+                                "margin-bottom": "3px",
+                                "color": "#555555"
+                              },
+                              "attributes": {
+                                "value": "I'm in no hurry"
+                              }
+                            }
+                          ],
+                          "grid": {
+                            "pos-col": 1,
+                            "pos-row": 8
+                          },
+                          "style": {},
+                          "attributes": {}
+                        }
+                      ],
+                      "grid": {
+                        "pos-col": 1,
+                        "pos-row": 7
+                      },
+                      "style": {},
+                      "attributes": {
+                        "class": "checkbox-group"
+                      }
+                    }
+                  ],
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  },
+                  "style": {
+                    "margin-bottom": "15px"
+                  },
+                  "attributes": {
+                    "class": "form-group"
+                  }
+                },
+                {
+                  "proxy": "linegap",
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  }
+                },
+                {
+                  "name": "Submit Request",
+                  "tag": "button",
+                  "component": [],
+                  "grid": {
+                    "pos-col": 1,
+                    "pos-row": 6
+                  },
+                  "style": {
+                    "background-color": "#555555",
+                    "color": "#ffffff",
+                    "padding": "10px 15px",
+                    "border": "none",
+                    "border-radius": "4px",
+                    "cursor": "pointer",
+                    "font-size": "16px",
+                    "width": "100%"
+                  },
+                  "attributes": {
+                    "type": "submit",
+                    "value": "Submit Request"
+                  }
+                }
+              ],
+              "grid": {
+                "pos-col": 1,
+                "pos-row": 5
+              },
+              "style": {},
+              "attributes": {}
+            }
+          ],
+          "grid": {
+            "pos-col": 1,
+            "pos-row": 4
+          },
+          "style": {},
+          "attributes": {}
+        }
+      ],
+      "grid": {
+        "pos-col": 1,
+        "pos-row": 3
+      },
+      "style": {
+        "width": "90%",
+        "max-width": "600px",
+        "margin": "20px",
+        "padding": "20px",
+        "border": "1px solid #000000",
+        "border-radius": "5px",
+        "background-color": "#ffffff"
+      },
+      "attributes": {
+        "class": "container"
+      }
+    }
+  ],
+  "grid": {
+    "display": "flex",
+    "justify-content": "center",
+    "align-items": "center",
+    "pos-col": 1,
+    "pos-row": 2
+  },
+  "style": {
+    "font-family": "sans-serif",
+    "margin": "0",
+    "min-height": "100vh",
+    "background-color": "#f5f5f5"
+  },
+  "attributes": {}
+}

@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f0f0f0;
+  font-family: Arial;
+}
+
+.grid-container {
+  display: grid;
+
+  /* Explicit template */
+  /* grid-template: repeat(2, 100px) / 1fr 2fr 100px; */
+   grid-template: repeat(2, 100px) / minmax(100px, 1fr) 2fr minmax(150px, 200px);
+
+  /* Auto rows/columns for implicit items */
+  grid-auto-rows: 80px;
+  grid-auto-columns: 150px;
+
+  /* Gaps */
+  gap: 20px; /* shorthand */
+  grid-row-gap: 30px; /* overrides row part of gap */
+  grid-column-gap: 10px; /* overrides column part of gap */
+
+  background-color: #ddd;
+  padding: 10px;
+  width: max-content;
+}
+
+.item {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+}
+
+
