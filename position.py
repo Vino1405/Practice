@@ -14,11 +14,7 @@ def process_position_properties(dom_tree):
     def _process_node(node, parent_grid=None):
         if not isinstance(node, dict):
             return
-       
-        # Initialize grid if not exists
-        if 'grid' not in node:
-            node['grid'] = {}
-        grid = node['grid']
+    
        
         # Store parent grid info for reference
         current_grid = {
